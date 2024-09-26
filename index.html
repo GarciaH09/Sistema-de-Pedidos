@@ -11,7 +11,7 @@
     <form id="pedidoForm">
         <input type="text" id="nomeCliente" placeholder="Nome do Cliente" required>
         <input type="text" id="nomePedido" placeholder="Nome do Pedido" required>
-        <input type="text" id="valor" placeholder="Valor" required>
+        <input type="number" id="valor" placeholder="Valor" required>
         
         <select id="Forma">
             <option value="" disabled selected hidden>Forma de Pagamento</option>
@@ -20,6 +20,7 @@
         </select>      
         
         <select id="Troco">
+            <option value="" disabled selected hidden> Troco </option>
             <option value="nao">Não</option>
             <option value="sim">Sim</option>
         </select>      
